@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; /* Fondo suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra elegante */
+    width: 100%;
+    max-width: 450px;
+    box-sizing: border-box;
+}
+
+/* 3. Título del formulario */
+.container h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #5cb85c;
+    padding-bottom: 10px;
+}
+
+/* 4. Grupos de formulario y etiquetas */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 600;
+}
+
+/* 5. Estilos de los campos de entrada (input) */
+.form-group input[type="text"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input[type="text"]:focus {
+    border-color: #5cb85c;
+    box-shadow: 0 0 5px rgba(92, 184, 92, 0.5); /* Sombra al enfocar */
+    outline: none; /* Quita el contorno por defecto del navegador */
+}
+
+/* 6. Mensajes de validación y estado */
+.form-group span {
+    color: #e74c3c; /* Color de error */
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: block;
+}
+
+.message {
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.message.failed {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* 7. Botón de envío */
+input[type="submit"] {
+    background-color: #5cb85c; /* Color principal */
+    color: white;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    width: 100%;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+input[type="submit"]:hover:not([disabled]) {
+    background-color: #4cae4c; /* Oscurecer al pasar el ratón */
+}
+
+/* 8. Estilos para el botón deshabilitado */
+input[type="submit"][disabled] {
+    background-color: #aab;
+    cursor: not-allowed;
+    opacity: 0.6;
+}

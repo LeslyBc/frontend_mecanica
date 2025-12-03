@@ -1,0 +1,11 @@
+.navbar-brand img {
+    /* Ajusta la altura si no se especifica en el HTML */
+    height: 2.75rem; 
+    /* Agrega un poco de margen a la derecha si hay texto o un nombre de marca junto al logo */
+    margin-right: 0.5rem; 
+    /* Asegura que no se distorsione */
+    vertical-align: middle; 
+.container-fluid {
+    background-color: black; /* Color de fondo oscuro */
+}
+}

@@ -1,0 +1,30 @@
+.title {
+    font-family: 'Arial', sans-serif;
+    /* Tamaño */
+    font-size: 3.5rem;
+    /*Negrita */
+    font-weight: 800;
+    color: #1a1a2e;
+    /* Margen: Espacio debajo del título, separándolo del subtítulo */
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.subtittle {
+    font-family: 'Arial', sans-serif;
+    /* Tamaño*/
+    font-size: 1.25rem;
+    /* Ligeramente claro */
+    font-weight: 300;
+    color: #555555;
+    /* Ancho Máximo: Limita el ancho del párrafo para que no se extienda demasiado y sea fácil de leer */
+    max-width: 800px;
+    /* Margen Automático: Centra el bloque del párrafo */
+    margin-left: auto;
+    margin-right: auto;
+    /* Margen: Espacio debajo del párrafo, separándolo del contenido que viene a continuación */
+    margin-bottom: 2rem;
+    text-align: center;
+    /* Altura de línea: Mejora la legibilidad en párrafos largos */
+    line-height: 1.6;
+}
